@@ -1,0 +1,233 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans";
+  font-size: 20px;
+
+}
+
+
+
+.Box{
+
+  width: 700px;
+  height: 425px;
+  background-color: #212936cc;
+  margin: 20px;
+  border-radius: 15px;
+  border: 1px solid #4D5562;
+  overflow: hidden;
+
+}
+
+.Box > textarea{
+
+  margin-left: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  resize: none;
+  width: 95%;
+  height: 50%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+}
+
+#letters{
+
+
+  margin-top: -20px;
+  margin-left: 88%;
+  margin-bottom: 0px;
+  color: #4C5563;
+  font-size: medium;
+  font-weight: 600;
+
+}
+
+.Box > * > button{
+  font-size: 15px;
+  background-color: transparent;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 25px;
+  color: #6B717D;
+  font-weight: 600;
+}
+
+.Box > * > button:hover{
+  background-color: #4C5563;
+  color:white;
+}
+
+.Box > * > button:active{
+  background-color: #154799;
+  color:white;
+}
+
+.Box > * > p{
+
+  font-size: 16px;
+  margin-left: 15px;
+  color: #6B717D;
+  font-weight: 600;
+  margin-right: 5px;
+
+}
+
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/idk/hero_img.jpg");
+  background-repeat: no-repeat;
+  background-color: #040711;
+  background-attachment: fixed;
+  background-size: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+#container > img{
+
+  width: 100%;
+
+
+}
+
+
+.bottomBar{
+
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.bottomBar > button, .bottomBar > div > button{
+
+
+  margin-left: 0px;
+  border: 2px solid #4C5563;
+  padding: 8px;
+  padding-bottom: 5px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+
+.bottomBar > button:hover, .bottomBar > div > button:hover{
+
+
+  background-color: #394150;
+  color:white;
+
+}
+
+.bottomBar > button:active, .bottomBar > div > button:active{
+
+
+  background-color: #2c323d;
+  color:white;
+
+}
+
+#translate{
+
+  margin-top: -45px;
+  background-color: #3662E3;
+  padding: 1px 10px;
+  margin-left: 75%;
+  display: flex;
+  border: 1px solid #7CA9F3;
+  color: white;
+
+}
+
+#translate:hover{
+
+  background-color: #1d3783;
+}
+
+#translate:active{
+
+  
+  background-color: #12245a;
+
+}
+
+#translate > img{
+
+
+  margin-top: 10px;
+  margin-left: 10px;
+
+
+}
+
+#translate > p{
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.topBar{
+
+
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+}
+
+
+.line{
+
+  background-color: #384150;
+  width: 95%;
+  height: 1px;
+  margin-top: -10px;
+  
+
+}
+
+#switch{
+
+  margin-left: 45%;
+  border: 2px solid #4C5563;
+  padding: 4px 5px 2px 5px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+#switch:hover{
+  background-color: #394150;
+  
+}
+
+#switch:active{
+
+  background-color: #313846;
+}
+
+
+#active{
+
+
+  background-color: #13418a;
+  color: white;
+
+}
+
