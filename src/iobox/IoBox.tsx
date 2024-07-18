@@ -1,5 +1,3 @@
-import React from "react";
-import soundIcon from "../assets/sound_max_fill.svg"
 import copyIcon from "../assets/Copy.svg"   
 import tIcon from "../assets/Sort_alfa.svg"
 import sIcon from "../assets/Horizontal_top_left_main.svg"
